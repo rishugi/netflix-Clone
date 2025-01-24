@@ -1,0 +1,263 @@
+.{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    background-color: black;
+}
+mainboxcover{
+    height: 120vh;
+    background-color: rgba(00,00,00,1);
+    background-image: url(mainimage1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    
+}
+.mainbox{
+    height: 120vh;
+    background-image: url(mainimage1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.navbar{
+    height: 12vh;
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 2vh;
+}
+.logo{
+    height: 10vh;
+    width: 14.23vw;
+    margin-right: 47vw;
+    margin-left: 10vw;   
+}
+#logo_img{
+    height: 9.9vh;
+    width: 22vw;
+    background-image: url(imglogo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.navbox2{
+    height: 20vh;
+    width: 15vw;
+    color: white;
+    display: flex;
+    align-items:center ;
+    padding: 0.5vw;
+    font-size: 1.3rem;
+    font-family: Arial, Helvetica, sans-serif;   
+}
+.eng{
+    height: 3vh;
+    width: 7vw;
+    border: 1px solid white;
+    padding: 0.5VW;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 0.5vw;
+    border-radius: 5px;
+    background-color: rgba(00,00,00,0.5);
+    box-shadow: inset rgba(00,00,00,0.1);
+    
+}
+/*hover */
+.logo:hover{
+    border: 2px solid white;
+}
+.eng:hover{
+    border: 2px solid white;
+}
+.Signin:hover{
+    border: 2px solid white;
+}
+#eng_text{
+    font-size: 1.2rem;
+    background-color: rgba(00,00,00,0.1);
+    color: white;
+    border: none;
+    
+}
+.Signin{
+    height: 3vh;
+    width: 5vw;
+    border: 1px solid transparent;
+    padding: 0.5VW;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 0.5vw;
+    background-color: red;
+    border-radius: 5px;
+    
+}
+#Signin_text{
+    font-size: 1.1rem;
+    color: white;
+    text-decoration: none;
+}
+/*Box Decoration*/
+.boxmain_1{
+    height: 80vh;
+    width: 100%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box{
+    height: 80vh;
+    width: 50vw;
+    color: white;
+    display: flex;
+    align-items: center;
+    margin-top: 5vh;
+}
+.text_box1{
+    text-align: center;
+
+}
+#text1{
+    font-size: 4rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+
+}
+#h2{
+    font-size: 1.2rem;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 3vh;
+}
+#h3{
+    font-size: 1rem;
+    margin-bottom: 1.5vh;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+input{
+    height: 5.5vh;
+    width: 27vw;
+    border-radius: 10px;
+    margin-left: 2vw;
+    padding: 15px;
+    font-size: 20px;
+    background-color: rgba(00,00,00,0.5);
+    color: white;
+}
+#email_button{
+    height: 10vh;
+    width: 15vw;
+    border-radius: 10px;
+    font-size: 25px;
+    font-weight: 700;
+    background-color: rgb(253, 3, 3);
+    color: white;
+}
+
+/*Image box2 */
+
+.box2{
+    background-color: black;
+    height: 70vh;
+    width: 100vw;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.img_box1{
+    width: 70vw;
+    height: 100vh;
+    margin-top: 25vh;
+}
+.countryandshow_box{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin-top: -1vh;
+}
+.county{
+    height: 4vh;
+    width: 7vw;
+    border: 1px solid rgb(212, 210, 210);
+    padding: 5px;
+    background-color: rgba(00,00,00,1);
+    border-radius: 5px;
+    margin-right: 1vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#count{
+    background-color: rgba(00,00,00,0.5);
+    color: white;
+    border: none;
+}
+.show{
+    height: 4vh;
+    width: 7vw;
+    border: 1px solid rgb(212, 210, 210);
+    padding: 5px;
+    background-color: rgba(00,00,00,1);
+    border-radius: 5px;
+    margin-right: 1vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: wh;
+}
+#movishow{
+    background-color: rgba(00,00,00,0.5);
+    color: white;
+    border: none;
+}
+ul{
+    display: flex;
+}
+li{
+    height: 50vh;
+    width: 14vw;
+}
+.gallery{
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25vh;
+    margin-left: 10px;
+}
+/*Image box3 */
+
+.box3{
+    background-color: black;
+    height: 70vh;
+    width: 100vw;
+    color: white;
+    margin-top: -25vh;  
+}
+#heading2{
+    margin-left: 12vw;
+}
+.img_box2{
+    
+    margin-top: 25vh;
+}
+ul{
+    display: flex;
+    gap: 5px;
+}
+li{
+    height: 50vh;
+    width: 14vw;
+}
+.gallery{
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25vh;
+    margin-left: 10px;
+}
